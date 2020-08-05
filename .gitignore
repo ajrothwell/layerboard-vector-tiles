@@ -1,0 +1,7 @@
+node_modules
+public/*.js
+public/*.js.map
+.npmrc
+.env.local
+statistics.html
+dist/

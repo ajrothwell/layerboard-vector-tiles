@@ -1,0 +1,42 @@
+{
+  "name": "layerboard-vector-tiles",
+  "version": "0.0.1",
+  "description": "A map-based data viewer for the City of Philadelphia",
+  "main": "",
+  "repository": "https://github.com/cityofphiladelphia/openmaps",
+  "author": "City of Philadelphia <maps@phila.gov>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "dev-build": "vue-cli-service build --mode development",
+    "lint": "vue-cli-service lint",
+    "lintFix": "vue-cli-service lint --fix"
+  },
+  "dependencies": {
+    "@phila/layerboard": "https://github.com/CityOfPhiladelphia/layerboard#b1db2e9ae58e503ddc204ed5777a3c31c60dcc10",
+    "@sentry/browser": "5.7.1",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.1",
+    "@vue/cli-plugin-eslint": "^4.1.1",
+    "@vue/cli-service": "^4.1.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.0.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack-visualizer-plugin": "^0.1.11"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
